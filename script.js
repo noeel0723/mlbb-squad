@@ -270,9 +270,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "tennndo": { name: "Tennndo.", role: "Exp Laner", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 56, heroes: [{ name: "Xborg", img: "xborg.png" }, { name: "Yu Zhong", img: "yuzhong.png" }, { name: "Sora", img: "sora.png" }] },
         "ophelia": { name: "Opheliaaa.", role: "Flexible", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 68, heroes: [{ name: "Chip", img: "chip.png" }, { name: "Nolan", img: "nolan.png" }, { name: "Freya", img: "freya.png" }] },
         "locklie": { name: "Locklie_", role: "Roamer", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 105, heroes: [{ name: "Tigreal", img: "tigreal.png" }, { name: "Minotaur", img: "minotaur.png" }, { name: "Gatotkaca", img: "gatotkaca.png" }] },
-        "gley": { name: "Gley", role: "Roamer", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 62, heroes: [{ name: "Grock", img: "grock.png" }, { name: "Gatotkaca", img: "gatotkaca.png" }, { name: "Hylos", img: "hylos.png" }] },
-        "noel gallagher": { name: "Noel Gallagher.", role: "Roamer", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 145, heroes: [{ name: "Helcurt", img: "helcurt.png" }, { name: "Grock", img: "grock.png" }, { name: "Kaja", img: "kaja.png" }] }
+        "gley": { name: "Gley", role: "Roamer", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 62, heroes: [{ name: "Grock", img: "grock.png" }, { name: "Gatotkaca", img: "gatotkaca.png" }, { name: "Hylos", img: "hylos.png" }] }
     };
+
 
     const modal = document.getElementById('memberModal');
     const modalClose = document.getElementById('modalClose');
@@ -371,7 +371,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     else if (rawName.includes('ophelia')) lookupName = 'ophelia';
                     else if (rawName.includes('locklie')) lookupName = 'locklie';
                     else if (rawName.includes('gley')) lookupName = 'gley';
-                    else if (rawName.includes('noel gallagher')) lookupName = 'noel gallagher';
                     renderModal(lookupName);
                 }
             }
