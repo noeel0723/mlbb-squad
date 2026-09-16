@@ -256,13 +256,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === MEMBER MODAL ===
     const memberDatabase = {
-        "nicole": { name: "Nicole", role: "Gold Laner", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 103, heroes: [{ name: "Granger", img: "granger2.png" }, { name: "Claude", img: "claude.png" }, { name: "Harith", img: "harith.png" }] },
+        "nicole": { name: "morningstar", role: "Gold Laner", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 166, heroes: [{ name: "Granger", img: "granger2.png" }, { name: "Claude", img: "claude.png" }, { name: "Harith", img: "harith.png" }] },
         "samwell": { name: "Samwell", role: "Flexible", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 109, heroes: [{ name: "Fanny", img: "fanny.png" }, { name: "Guinevere", img: "guinevere.png" }, { name: "Sora", img: "sora.png" }] },
         "waneki": { name: "Waneki", role: "Mid Laner", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 76, heroes: [{ name: "Zhuxin", img: "zhuxin.png" }, { name: "Pharsa", img: "pharsa.png" }, { name: "Yve", img: "yve.png" }] },
         "evatetsu": { name: "Evatetsu", role: "Mid Laner", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 51, heroes: [{ name: "Lunox", img: "lunox.png" }, { name: "Vexana", img: "vexana.png" }, { name: "Aurora", img: "aurora.png" }] },
         "francis": { name: "Francis. Yongg~66", role: "Jungler/Exp", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 124, heroes: [{ name: "Ling", img: "ling.png" }, { name: "Alice", img: "alice.png" }, { name: "Cici", img: "cici.png" }] },
-        "cfyuu": { name: "Cfyuu.", role: "Jungler", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 123, heroes: [{ name: "Hayabusa", img: "hayabusa2.png" }, { name: "Joy", img: "joy.png" }, { name: "Yi Sun-Shin", img: "yss.png" }] },
-        "kayyie": { name: "Kayyie", role: "Midlaner", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 92, heroes: [{ name: "Cecilion", img: "cecilion.png" }, { name: "Vale", img: "vale.jpg" }, { name: "Nana", img: "nana.jpg" }] },
+        "cfyuu": { name: "Cfyuu Skywalker.", role: "Jungler", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 123, heroes: [{ name: "Hayabusa", img: "hayabusa2.png" }, { name: "Joy", img: "joy.png" }, { name: "Yi Sun-Shin", img: "yss.png" }] },
+        "noirr.": { name: "Noirr.", role: "Midlaner", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 92, heroes: [{ name: "Cecilion", img: "cecilion.png" }, { name: "Vale", img: "vale.jpg" }, { name: "Nana", img: "nana.jpg" }] },
         "asamiya": { name: "Asamiya", role: "Exp Laner", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 120, heroes: [{ name: "Cici", img: "cici.png" }, { name: "Guinevere", img: "guinevere.png" }, { name: "Ruby", img: "ruby.png" }] },
         "amuro": { name: "Amuro ray.", role: "Flexible", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 114, heroes: [{ name: "Lapu Lapu", img: "lapulapu.png" }, { name: "Alice", img: "alice.png" }, { name: "Uranus", img: "uranus.png" }] },
         "claire": { name: "Claire", role: "Mid Laner", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 102, heroes: [{ name: "Luo Yi", img: "luoyi.png" }, { name: "Vexana", img: "vexana.png" }, { name: "aurora", img: "aurora.png" }] },
@@ -356,13 +356,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (nameEl) {
                     const rawName = nameEl.textContent.toLowerCase();
                     let lookupName = "unknown";
-                    if (rawName.includes('nicole')) lookupName = 'nicole';
+                    if (rawName.includes('nicole') || rawName.includes('morningstar')) lookupName = 'nicole';
                     else if (rawName.includes('samwell')) lookupName = 'samwell';
                     else if (rawName.includes('waneki')) lookupName = 'waneki';
                     else if (rawName.includes('evatetsu')) lookupName = 'evatetsu';
                     else if (rawName.includes('francis')) lookupName = 'francis';
                     else if (rawName.includes('cfyuu')) lookupName = 'cfyuu';
-                    else if (rawName.includes('kayyie')) lookupName = 'kayyie';
+                    else if (rawName.includes('noirr.')) lookupName = 'noirr.';
                     else if (rawName.includes('asamiya')) lookupName = 'asamiya';
                     else if (rawName.includes('amuro')) lookupName = 'amuro';
                     else if (rawName.includes('claire')) lookupName = 'claire';
