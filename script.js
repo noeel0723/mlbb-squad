@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "tennndo": { name: "Tennndo.", role: "Exp Laner", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 61, heroes: [{ name: "Xborg", img: "xborg.png" }, { name: "Yu Zhong", img: "yuzhong.png" }, { name: "Paquito", img: "paquito.png" }] },
         "ophelia": { name: "Opheliaaa.", role: "Flexible", rankIcon: "Mythical_Glory.png", rankName: "Mythic Glory", highestStar: 68, heroes: [{ name: "Chip", img: "chip.png" }, { name: "Nolan", img: "nolan.png" }, { name: "Freya", img: "freya.png" }] },
         "raskolnikov": { name: "Raskolnikov.", role: "Roamer", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 151, heroes: [{ name: "Lolita", img: "lolita.png" }, { name: "Minotaur", img: "minotaur.png" }, { name: "estes", img: "estes.png" }] },
-        "gley": { name: "Gley", role: "Roamer", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 130, heroes: [{ name: "Marcell", img: "marcell.png" }, { name: "Floryn", img: "floryn.png" }, { name: "gorck", img: "grock.png" }] }
+        "gley": { name: "Gley", role: "Roamer", rankIcon: "Mythical_Immortal.png", rankName: "Mythic Immortal", highestStar: 130, heroes: [{ name: "Marcell", img: "marcell.png" }, { name: "Floryn", img: "floryn.png" }, { name: "grock", img: "grock.png" }] }
     };
 
 
